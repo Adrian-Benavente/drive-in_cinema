@@ -20,7 +20,7 @@ export const App = () => {
       <Canvas
         className="canvas"
         shadows
-        camera={{ position: [-85, 45, 50], fov: 12 }}
+        camera={{ position: [-85, 45, 50], fov: 20 }}
       >
         <HomeScene />
       </Canvas>

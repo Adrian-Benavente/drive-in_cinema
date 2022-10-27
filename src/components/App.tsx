@@ -5,6 +5,12 @@ export const App = () => {
   return (
     <>
       <main className="app">
+        <a
+          href="https://github.com/Adrian-Benavente/drive-in_cinema"
+          className="github-link"
+          title="Github Repo"
+          target="_blank"
+        ></a>
         <section className="hero">
           <h1>Floating Drive-in cinema</h1>
           <h2>Web 3D Workshop - Nerdearla</h2>

@@ -13,7 +13,7 @@ export const HomeScene = () => {
       <OrbitControls />
       <directionalLight
         position={[0, 10, -300]}
-        color="#c2c0bd"
+        color="#cc4ada"
         castShadow
         intensity={5}
         shadow-camera-near={0.1}
@@ -34,7 +34,7 @@ export const HomeScene = () => {
       </GizmoHelper>
       <group position={[0, -5, 0]}>
         <Ground />
-        <VideoPlane videourl="./fantasy.mp4" />
+        <VideoPlane videourl="./delorean-synthwave.mp4" />
         {/* Screen */}
         <mesh castShadow receiveShadow position={[0, 6.5, -12.1]}>
           <boxGeometry args={[17, 10, 1]} />

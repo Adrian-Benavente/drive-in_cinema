@@ -39,7 +39,7 @@ export const HomeScene = () => {
         <Screen />
         {/* Ground */}
         <mesh>
-          <boxGeometry args={[20, 3, 30]} />
+          <boxGeometry args={[40, 3, 40]} />
           <meshStandardMaterial
             color="#4D2E1A"
             envMapIntensity={0}

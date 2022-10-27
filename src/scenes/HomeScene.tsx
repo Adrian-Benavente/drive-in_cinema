@@ -1,4 +1,4 @@
-import { Ground, VideoPlane } from "@/components";
+import { Ground, VideoPlane, Vehicles, Trees } from "@/components";
 import {
   Environment,
   GizmoHelper,
@@ -6,7 +6,6 @@ import {
   OrbitControls,
   Stars,
 } from "@react-three/drei";
-import { Vehicles } from "@/components/Vehicles";
 
 export const HomeScene = () => {
   return (
@@ -58,6 +57,7 @@ export const HomeScene = () => {
           />
         </mesh>
       </group>
+      <Trees />
       <Vehicles />
       <Stars
         radius={50}

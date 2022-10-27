@@ -7,7 +7,7 @@ export const Ground = () => {
   return (
     <>
       <mesh position={[0, 1.52, 0]} rotation={[-Math.PI / 2, 0, Math.PI / 2]}>
-        <planeGeometry args={[30, 20]} />
+        <planeGeometry args={[40, 40]} />
         <meshStandardMaterial {...groundTexture} transparent />
       </mesh>
     </>

@@ -19,7 +19,7 @@ export const VideoPlane = ({ videourl, ...props }: any) => {
     <mesh
       castShadow
       receiveShadow
-      position={[0, 6.5, -11.5]}
+      position={[0, 6.5, -17.4]}
       scale={[16, 9, 1]}
       {...props}
     >

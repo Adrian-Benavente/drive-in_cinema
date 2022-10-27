@@ -1,4 +1,4 @@
-import { Ground, VideoPlane, Vehicles, Trees } from "@/components";
+import { Ground, VideoPlane, Vehicles, Trees, Screen } from "@/components";
 import {
   Environment,
   GizmoHelper,
@@ -36,15 +36,7 @@ export const HomeScene = () => {
         <Ground />
         <VideoPlane videourl="./delorean-synthwave.mp4" />
         {/* Screen */}
-        <mesh castShadow receiveShadow position={[0, 6.5, -12.1]}>
-          <boxGeometry args={[17, 10, 1]} />
-          <meshStandardMaterial
-            color="black"
-            envMapIntensity={0.5}
-            roughness={0.2}
-            metalness={0.8}
-          />
-        </mesh>
+        <Screen />
         {/* Ground */}
         <mesh>
           <boxGeometry args={[20, 3, 30]} />

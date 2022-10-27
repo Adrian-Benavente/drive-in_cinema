@@ -3,6 +3,7 @@ import * as THREE from "three";
 
 export const Ground = () => {
   const groundTexture = useTexture("/grass.jpg");
+  groundTexture.repeat = new THREE.Vector2(3, 3);
   groundTexture.wrapS = THREE.RepeatWrapping;
   groundTexture.wrapT = THREE.RepeatWrapping;
 

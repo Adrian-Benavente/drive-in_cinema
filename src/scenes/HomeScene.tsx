@@ -12,7 +12,7 @@ export const HomeScene = () => {
     <>
       <OrbitControls />
       <directionalLight
-        position={[0, 15, -9000]}
+        position={[0, 10, -300]}
         color="#c2c0bd"
         castShadow
         intensity={5}
@@ -25,7 +25,7 @@ export const HomeScene = () => {
         shadow-mapSize-width={1024}
         shadow-mapSize-height={1024}
       />
-      <Environment preset="city" />
+      <Environment preset="night" />
       {/* <ambientLight /> */}
       <GizmoHelper alignment="bottom-right" margin={[100, 100]}>
         <GizmoViewport

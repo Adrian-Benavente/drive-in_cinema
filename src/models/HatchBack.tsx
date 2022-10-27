@@ -1,0 +1,96 @@
+import React from "react";
+import { useGLTF } from "@react-three/drei";
+
+export function HatchBack(props: any) {
+  const { nodes, materials } = useGLTF("/hatchback.gltf") as any;
+  return (
+    <group {...props} dispose={null}>
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Mesh_body013.geometry}
+        material={materials["plastic.001"]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Mesh_body013_1.geometry}
+        material={materials["paintGreen.001"]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Mesh_body013_2.geometry}
+        material={materials["lightFront.001"]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Mesh_body013_3.geometry}
+        material={materials["_defaultMat.001"]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Mesh_body013_4.geometry}
+        material={materials["window.001"]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Mesh_body013_5.geometry}
+        material={materials["lightBack.001"]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Mesh_wheel_frontLeft032.geometry}
+        material={materials["carTire.013"]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Mesh_wheel_frontLeft032_1.geometry}
+        material={materials["_defaultMat.021"]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Mesh_wheel_frontLeft031.geometry}
+        material={materials["carTire.013"]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Mesh_wheel_frontLeft031_1.geometry}
+        material={materials["_defaultMat.021"]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Mesh_wheel_frontLeft010.geometry}
+        material={materials["carTire.013"]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Mesh_wheel_frontLeft010_1.geometry}
+        material={materials["_defaultMat.021"]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Mesh_wheel_frontLeft009.geometry}
+        material={materials["carTire.013"]}
+      />
+      <mesh
+        castShadow
+        receiveShadow
+        geometry={nodes.Mesh_wheel_frontLeft009_1.geometry}
+        material={materials["_defaultMat.021"]}
+      />
+    </group>
+  );
+}
+
+useGLTF.preload("/hatchback.gltf");

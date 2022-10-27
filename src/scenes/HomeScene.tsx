@@ -35,7 +35,7 @@ export const HomeScene = () => {
       </GizmoHelper>
       <group position={[0, -5, 0]}>
         <Ground />
-        <VideoPlane videourl="./Woods.mp4" />
+        <VideoPlane videourl="./fantasy.mp4" />
         {/* Screen */}
         <mesh castShadow receiveShadow position={[0, 6.5, -12.1]}>
           <boxGeometry args={[17, 10, 1]} />

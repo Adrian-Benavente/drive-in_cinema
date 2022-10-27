@@ -26,7 +26,6 @@ export const HomeScene = () => {
         shadow-mapSize-height={1024}
       />
       <Environment preset="night" />
-      {/* <ambientLight /> */}
       <GizmoHelper alignment="bottom-right" margin={[100, 100]}>
         <GizmoViewport
           axisColors={["red", "green", "blue"]}

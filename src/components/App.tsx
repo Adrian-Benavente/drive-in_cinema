@@ -6,7 +6,7 @@ export const App = () => {
     <>
       <main className="app">
         <section className="hero">
-          <h1>Drive-in cinema</h1>
+          <h1>Floating Drive-in cinema</h1>
           <h2>Web 3D Workshop - Nerdearla</h2>
           <h3>Adrián Benavente</h3>
         </section>

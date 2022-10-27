@@ -57,23 +57,23 @@ const Row2 = () => (
 
 const Row3 = () => (
   <>
-    <OldVan rotation-y={Math.PI / 0.2} scale={0.8} position={[-2, -2.75, 11]} />
-    <Suv rotation-y={Math.PI / 0.2} position={[-5, -3.48, 11]} />
+    <OldVan rotation-y={Math.PI / 0.2} scale={0.8} position={[-2, -2.75, 10]} />
+    <Suv rotation-y={Math.PI / 0.2} position={[-5, -3.48, 10]} />
     <HatchBack
       rotation-y={Math.PI / 0.2}
       scale={0.8}
-      position={[7, -3.48, 11]}
+      position={[7, -3.48, 10]}
     />
-    <Van rotation-y={Math.PI / 0.2} scale={0.8} position={[-8, -3.48, 11]} />
+    <Van rotation-y={Math.PI / 0.2} scale={0.8} position={[-8, -3.48, 10]} />
     <CyberTruck
       rotation-y={Math.PI / 0.2}
       scale={0.8}
-      position={[4, -3.48, 11]}
+      position={[4, -3.48, 10]}
     />
     <SportsSedan
       rotation-y={Math.PI / 0.2}
       scale={0.8}
-      position={[1, -3.48, 11]}
+      position={[1, -3.48, 10]}
     />
   </>
 );

@@ -12,7 +12,7 @@ export const App = () => {
           target="_blank"
         ></a>
         <section className="hero">
-          <h1>Floating Drive-in cinema</h1>
+          <h1>Space floating drive-in cinema</h1>
           <h2>Web 3D Workshop - Nerdearla</h2>
           <h3>Adrián Benavente</h3>
         </section>

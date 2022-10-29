@@ -90,7 +90,7 @@ h1 {
   width: 70px;
 }
 
-.github-link:hover {
+.github-link:hover, .github-link:focus {
   transform: scale(1.2);
   transform-origin: center;
 }

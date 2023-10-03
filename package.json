@@ -11,23 +11,23 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@react-three/drei": "^9.37.1",
+    "@react-three/drei": "^9.86.3",
     "@react-three/fiber": "^8.8.10",
-    "gh-pages": "^4.0.0",
-    "meshline": "^2.0.4",
+    "gh-pages": "^6.0.0",
+    "meshline": "^3.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "three": "^0.145.0"
+    "three": "^0.157.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
-    "@types/three": "^0.144.0",
-    "@vitejs/plugin-react": "^2.2.0",
-    "prettier": "^2.7.1",
-    "typescript": "^4.6.4",
-    "vite": "^3.2.0",
-    "vite-tsconfig-paths": "^3.5.2"
+    "@types/three": "^0.156.0",
+    "@vitejs/plugin-react": "^4.1.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.10",
+    "vite-tsconfig-paths": "^4.2.1"
   },
   "homepage": "https://adrian-benavente.github.io/drive-in_cinema"
 }
